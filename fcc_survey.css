@@ -1,0 +1,85 @@
+input, textarea {
+    
+    margin: 10pt 0;
+    border-radius: 0.3em;
+    justify-items: flex-start;
+}
+
+input[type='radio'] {
+    margin: 7pt 5pt;
+}
+input[type='checkbox'] {
+    margin: 7pt 5pt;
+}
+ 
+.text-field {
+    width: 100%;
+    height: 20pt;
+}
+
+.form-item {
+    margin: 20pt auto;
+}
+select {
+    width: 100%;
+    height: 20pt;
+    margin: 10pt 0;
+    border-radius: 0.2em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 10pt 0;
+    width: 80pt;
+    height: 25pt;
+    border-radius: 0.2em;
+    font-size: 14pt;
+}
+
+#page {
+    margin: auto 25%;
+    background-color: rgba(15, 15, 15, 0.8);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body {
+    background-color: #C48B9E;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: url(https://mymodernmet.com/wp/wp-content/uploads/archive/JHejNiHXuAhwsW0Tleim_1082127284.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    margin: auto 5%;
+}
+
+h1 {
+    margin: auto 5%;
+}
+
+textarea {
+    width: 100%;
+    height: 70pt;
+    margin-top: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    margin: 0.2em 5%;
+}
+
+hr {
+    margin: 0.5em 5%;
+}
+
+.question {
+    font-size: 14pt;
+    font-weight: bold;
+}

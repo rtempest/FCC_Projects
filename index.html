@@ -1,1 +1,96 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fcc_survey.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='page'>
+
+        <h1 id="title">A Completely Useless Survey</h1>
+        <hr>
+        <p id="description">Please complete the survey below for no reason whatsoever.</p>
+
+        <form id="survey-form">
+            <div class="form-item">
+                <label id='name-label' for="name" class="question">Your name:</label>
+                <input id="name" class="text-field" type='name' placeholder="Brad" required>
+            </div>
+            <div class="form-item">
+                <label id="email-label" for="email" class="question">Your email:</label>
+                <input id="email" class="text-field" type="email" placeholder="brad@gmail.com" required>
+                </divclass="form-item">
+                <div class="form-item">
+                    <label id="number-label" for="number" class="question">Pick a valid number:</label>
+                    <input id="number" class="text-field" type="number" max='85' min="43" placeholder="55">
+                </div>
+                <div class="form-item">
+                    <p class="question">Decide between these two choices:</p>
+                    <label><input type="radio" name="radio" id="forks" value="forks">Forks</label>
+                    <label><input type="radio" name="radio" id="yellow" value="yellow">Yellow</label>
+                    <label><input type="radio" name="radio" id="grass" value="grass">The Moon</label>
+
+                </div>
+                <div class="form-item">
+
+                    <label for="dropdown" id='dropdown-label' class="question">Pick a word from this dropdown
+                        menu:</label>
+                    <select id="dropdown" class="text-field">
+                        <option value="batman">Batman</option>
+                        <option value="boulder">Eight Hundred</option>
+                        <option value="rope">Ropes</option>
+                        <option value="oatmeal">Oatmeal</option>
+                    </select>
+                </div>
+
+                <div id="checkboxes" class="form-item">
+                    <p class="question">Click some of these boxes:</p cl>
+                    <label>
+                        <input class="checkbox" type="checkbox" value="cats">Cats
+                    </label>
+                    <label>
+                        <input class="checkbox" type="checkbox" value="houses">Madagascar
+                    </label>
+                    <label>
+                        <input class="checkbox" type="checkbox" value="hills">Hills
+                    </label>
+                    <label>
+                        <input class="checkbox" type="checkbox" value="snakes">Reptiles
+                    </label>
+                    <label>
+                        <input class="checkbox" type="checkbox" value="racecars">Gloves
+                    </label>
+                </div>
+                <div class="form-item">
+                    <p class="question">Add some boring comments that no one will ever read:</p>
+                    <textarea class='text-area'>
+                </textarea>
+                </div>
+
+                <p>Thank you for wasting your time!</p>
+
+                <div class="form-item">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+        </form>
+
+    </div>
+
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>
